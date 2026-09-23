@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "TodoApi.http",
               "ToolTip": "D:\\Informatika\\5.f\u00E9l\u00E9v\\szerveroldali alkalmaz\u00E1sok\\Projekt\\TodoApi\\TodoApi.http",
               "RelativeToolTip": "TodoApi.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBoAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
               "WhenOpened": "2026-09-22T19:11:16.56Z",
               "EditorCaption": ""
@@ -51,8 +51,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-22T18:11:55.059Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-22T18:11:55.059Z"
             },
             {
               "$type": "Document",
@@ -64,8 +63,7 @@
               "RelativeToolTip": "TodoDb.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-22T18:50:14.004Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-22T18:50:14.004Z"
             },
             {
               "$type": "Document",
@@ -77,8 +75,7 @@
               "RelativeToolTip": "Todo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-22T18:47:15.813Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-22T18:47:15.813Z"
             }
           ]
         }
