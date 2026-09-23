@@ -16,27 +16,17 @@
     "/todoitems": {
       "get": {
         "tags": [
-          "TodoApi"
+          "Program"
         ],
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Todo"
-                  }
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       },
       "post": {
         "tags": [
-          "TodoApi"
+          "Program"
         ],
         "requestBody": {
           "content": {
@@ -58,21 +48,11 @@
     "/todoitems/complete": {
       "get": {
         "tags": [
-          "TodoApi"
+          "Program"
         ],
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Todo"
-                  }
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       }
@@ -80,7 +60,7 @@
     "/todoitems/{id}": {
       "get": {
         "tags": [
-          "TodoApi"
+          "Program"
         ],
         "parameters": [
           {
@@ -105,7 +85,7 @@
       },
       "put": {
         "tags": [
-          "TodoApi"
+          "Program"
         ],
         "parameters": [
           {
@@ -138,9 +118,44 @@
           }
         }
       },
+      "patch": {
+        "tags": [
+          "Program"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "pattern": "^-?(?:0|[1-9]\\d*)$",
+              "type": [
+                "integer",
+                "string"
+              ],
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TodoPatchDto"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
       "delete": {
         "tags": [
-          "TodoApi"
+          "Program"
         ],
         "parameters": [
           {
@@ -194,12 +209,29 @@
             ]
           }
         }
+      },
+      "TodoPatchDto": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "isComplete": {
+            "type": [
+              "null",
+              "boolean"
+            ]
+          }
+        }
       }
     }
   },
   "tags": [
     {
-      "name": "TodoApi"
+      "name": "Program"
     }
   ]
 }

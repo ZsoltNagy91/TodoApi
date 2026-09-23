@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2weWMtlPYvc=",
+  "dgSpecHash": "zlBgySWJ2RQ=",
   "success": true,
   "projectFilePath": "D:\\Informatika\\5.félév\\szerveroldali alkalmazások\\Projekt\\TodoApi\\TodoApi.csproj",
   "expectedPackageFiles": [
@@ -9,7 +9,8 @@
     "C:\\Users\\zsoca\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\10.0.12\\microsoft.entityframeworkcore.abstractions.10.0.12.nupkg.sha512",
     "C:\\Users\\zsoca\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\10.0.12\\microsoft.entityframeworkcore.analyzers.10.0.12.nupkg.sha512",
     "C:\\Users\\zsoca\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\10.0.12\\microsoft.entityframeworkcore.inmemory.10.0.12.nupkg.sha512",
-    "C:\\Users\\zsoca\\.nuget\\packages\\microsoft.openapi\\2.12.0\\microsoft.openapi.2.12.0.nupkg.sha512"
+    "C:\\Users\\zsoca\\.nuget\\packages\\microsoft.openapi\\2.12.0\\microsoft.openapi.2.12.0.nupkg.sha512",
+    "C:\\Users\\zsoca\\.nuget\\packages\\scalar.aspnetcore\\2.17.8\\scalar.aspnetcore.2.17.8.nupkg.sha512"
   ],
   "logs": []
 }

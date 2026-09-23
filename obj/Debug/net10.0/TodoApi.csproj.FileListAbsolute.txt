@@ -36,3 +36,4 @@ D:\Informatika\5.félév\szerveroldali alkalmazások\Projekt\TodoApi\obj\Debug\n
 D:\Informatika\5.félév\szerveroldali alkalmazások\Projekt\TodoApi\obj\Debug\net10.0\TodoApi.genruntimeconfig.cache
 D:\Informatika\5.félév\szerveroldali alkalmazások\Projekt\TodoApi\obj\Debug\net10.0\ref\TodoApi.dll
 D:\Informatika\5.félév\szerveroldali alkalmazások\Projekt\TodoApi\obj\Debug\net10.0\TodoApi.sourcelink.json
+D:\Informatika\5.félév\szerveroldali alkalmazások\Projekt\TodoApi\bin\Debug\net10.0\Scalar.AspNetCore.dll
